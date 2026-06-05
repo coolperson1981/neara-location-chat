@@ -8,7 +8,7 @@ Neara is a web prototype for meeting nearby people in a safer, more intentional 
 
 **Project track:** Application / Product, with Automation / Agent Systems elements.
 
-**GitHub link:** Add the public repo URL here before Gradescope submission.
+**GitHub link:** https://github.com/coolperson1981/neara-location-chat
 
 **Compute / deployment:** The app can run locally with Node and has DigitalOcean deployment support. The current deployment metadata is in `digitalocean-deployment.json`.
 
