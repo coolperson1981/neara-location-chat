@@ -146,23 +146,6 @@ Do not commit API keys or DigitalOcean tokens to the repo.
 
 See `DIGITALOCEAN.md` for DigitalOcean setup notes. The app can be deployed as a Node service on a Droplet or adapted for DigitalOcean App Platform after pushing to a Git repo.
 
-## Video Outline
-
-**Q1: Why build this?**
-
-Start with the problem: nearby discovery is useful, but first contact is awkward and location privacy is sensitive. Neara explores an opt-in, mutual-consent pattern where AI helps people start a conversation without making the app feel invasive.
-
-**Q2: How does it work?**
-
-Show the app flow: profile interview, exact/demo location, nearby map, person card, wave request, accept, conversation card, chat drawer, and AI draft. Then explain the architecture: frontend, Node backend, in-memory realtime state, match-agent schemas, DigitalOcean/OpenAI/local AI provider chain.
-
-**Q3: Potential use cases and impact**
-
-Use cases include college campuses, conferences, coworking spaces, neighborhoods, festivals, and small communities where people are physically near each other but need a low-pressure way to start. The value is reducing social friction while keeping consent and privacy visible.
-
-**Q4: What more would you add?**
-
-Discuss persistence, auth, HTTPS deployment, stronger privacy controls, moderation, user testing, a real vector database, and a future mobile BLE layer.
 
 ## Process, Integrity, and Disclosure
 
@@ -175,4 +158,3 @@ External sources and services:
 - OpenAI as an optional AI draft provider.
 - Node.js built-in HTTP/server APIs.
 
-This project was not forked from an existing app repo. The older `domain_bias_experiment.py` file is unrelated leftover coursework and is not the submitted Neara application.
