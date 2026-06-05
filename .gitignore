@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+npm-debug.log*
+
+# Secrets and local runtime config
+.env
+.env.*
+!.env.example
+.do/app.yaml
+
+# Local deployment/output artifacts
+digitalocean-deployment.json
+outputs/
+
+# Old local archives / unrelated scratch
+New Folder With Items/
+*.zip
+__MACOSX/
+
+# Unrelated prior coursework file kept locally, not part of Neara submission
+domain_bias_experiment.py
